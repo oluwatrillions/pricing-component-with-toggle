@@ -1,0 +1,46 @@
+:root {
+  --VeryLightGrayishBlue: hsl(240, 78%, 98%);
+  --LightGrayishBlue: hsl(234, 14%, 74%);
+  --GrayishBlue: hsl(233, 13%, 49%);
+  --DarkGrayishBlue: hsl(232, 13%, 33%);
+}
+
+.container {
+  display: block;
+  width: 60vw;
+  height: 65vh;
+}
+
+.pricing {
+  display: block;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.toggle {
+  display: flex;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  background: var(--VeryLightGrayishBlue);
+}
+
+.firstDiv {
+  width: 275px;
+  text-align: center;
+}
+
+.secondDiv {
+  width: 275px;
+  height: 375px;
+  background: hsl(232, 61%, 72%);
+  align-content: center;
+  text-align: center;
+}
+
+.thirdDiv {
+  width: 275px;
+  text-align: center;
+}
