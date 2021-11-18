@@ -145,16 +145,16 @@ button {
 
 .control {
   width: 50px;
-  height: 26px;
+  height: 28px;
   background: rgb(111, 110, 206);
   position: relative;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .ball {
   position: absolute;
   width: 20px;
-  height: 21px;
+  height: 23px;
   background: white;
   border-radius: 50%;
   left: 3px;
