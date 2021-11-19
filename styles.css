@@ -8,7 +8,7 @@
 
 .container {
   width: 1440px;
-  height: 80vh;
+  height: 100vh;
   background: var(--VeryLightGrayishBlue);
   box-sizing: border-box;
 }
@@ -234,6 +234,29 @@ button {
   margin-bottom: 45px;
   padding-top: 5px;
 }
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 700px;
+  }
+  .sideDivs ul {
+    margin-left: -50px;
+  }
+  .midDiv ul {
+    margin-left: -50px;
+  }
+  .sideDivs button {
+    width: 150px;
+  }
+  .midDiv button {
+    width: 150px;
+  }
+}
 
 @media screen and (max-width: 500px) {
   .container {
@@ -269,5 +292,11 @@ button {
   }
   .midDiv ul {
     margin-left: 26px;
+  }
+  .midDiv button {
+    width: 240px;
+  }
+  .sideDivs button {
+    width: 240px;
   }
 }
