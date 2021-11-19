@@ -7,7 +7,7 @@
 }
 
 .container {
-  width: 1200px;
+  width: 1440px;
   height: 80vh;
   background: var(--VeryLightGrayishBlue);
   box-sizing: border-box;
@@ -16,7 +16,6 @@
 .options {
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
 }
 
 .options h1 {
@@ -78,7 +77,6 @@
   margin-right: 15px;
   border-radius: 10px;
   color: rgb(232, 236, 240);
-  box-sizing: border-box;
   padding-top: 20px;
 }
 
@@ -149,6 +147,9 @@ button {
   background: rgb(111, 110, 206);
   position: relative;
   border-radius: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 .ball {
@@ -206,7 +207,6 @@ button {
   margin-right: 15px;
   border-radius: 10px;
   color: rgb(232, 236, 240);
-  box-sizing: border-box;
   padding-top: 20px;
 }
 
@@ -233,4 +233,41 @@ button {
 .show-middiv h1 {
   margin-bottom: 45px;
   padding-top: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 400px;
+    display: block;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .pricing {
+    display: block;
+    text-align: center;
+    margin-top: -60px;
+  }
+  .toggle {
+    display: flex;
+    justify-content: center;
+  }
+  .options {
+    display: block;
+  }
+  .sideDivs {
+    width: 375px;
+    height: 450px;
+    border-radius: 15px;
+  }
+  .sideDivs ul {
+    margin-left: 35px;
+  }
+  .midDiv {
+    margin-top: 25px;
+    width: 375px;
+    height: 450px;
+  }
+  .midDiv ul {
+    margin-left: 26px;
+  }
 }
