@@ -167,17 +167,28 @@ button {
 
 .ball {
   position: absolute;
-  width: 20px;
+  width: 22px;
   height: 23px;
   background: white;
   border-radius: 50%;
   right: 3px;
-  top: 2px;
+  top: 2.5px;
   transition: transform 0.2s linear;
 }
 
 .ball-toggle {
-  transform: translateX(-25px);
+  transform: translateX(-23px);
+}
+
+.active {
+  position: absolute;
+  width: 22px;
+  height: 23px;
+  background: white;
+  border-radius: 50%;
+  right: 3px;
+  top: 2.5px;
+  transition: transform 0.2s linear;
 }
 
 @media screen and (max-width: 1000px) {
