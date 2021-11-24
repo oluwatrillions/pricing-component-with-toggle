@@ -171,13 +171,13 @@ button {
   height: 23px;
   background: white;
   border-radius: 50%;
-  left: 3px;
+  right: 3px;
   top: 2px;
   transition: transform 0.2s linear;
 }
 
 .ball-toggle {
-  transform: translateX(25px);
+  transform: translateX(-25px);
 }
 
 @media screen and (max-width: 1000px) {
