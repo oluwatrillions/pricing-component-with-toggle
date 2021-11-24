@@ -7,9 +7,9 @@
 }
 
 .container {
-  width: 1440px;
+  width: 1900px;
   height: 100vh;
-  background: var(--VeryLightGrayishBlue);
+  background: hsl(240, 78%, 98%);
   box-sizing: border-box;
 }
 
